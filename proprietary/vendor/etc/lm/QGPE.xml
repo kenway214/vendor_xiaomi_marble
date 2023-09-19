@@ -194,7 +194,7 @@
 
         <Profile target="diwali">
             <!-- CORE_CTL_ENABLE_BIG, 0, CORE_CTL_ENABLE_PRIME, 0-->
-            <!-- SCHED_MIN_TASK_UTIL_FOR_COLOCATION, 0, SCHED_MIN_TASK_UTIL_FOR_BOOST, 0-->
+            <!-- SCHED_MIN_TASK_UTIL_FOR_COLOCATION, 5, SCHED_MIN_TASK_UTIL_FOR_BOOST, 5-->
             <!-- BUS_DCVS_LLCC_DDR_GOLD_LAT_EN_SPM_VOTE, 30, BUS_DCVS_LLCC_DDR_GOLD_LAT_EN_SPM_VOTE, 30-->
             <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
             <!-- SCHED_MANY_WAKE_UP, 4-->
@@ -206,7 +206,7 @@
                 0x40C9C000,4
             </PROACTIVE_DEFAULT>
             <!-- CORE_CTL_ENABLE_BIG, 0, CORE_CTL_ENABLE_PRIME, 0-->
-            <!-- SCHED_MIN_TASK_UTIL_FOR_COLOCATION, 0, SCHED_MIN_TASK_UTIL_FOR_BOOST, 0-->
+            <!-- SCHED_MIN_TASK_UTIL_FOR_COLOCATION, 5, SCHED_MIN_TASK_UTIL_FOR_BOOST, 5-->
             <!-- BUS_DCVS_LLCC_DDR_GOLD_LAT_EN_SPM_VOTE, 30, BUS_DCVS_LLCC_DDR_GOLD_LAT_EN_SPM_VOTE, 30-->
             <!-- CPU_LLCC_BW_MAX_FREQ_V2 resource opcode, value-->
             <!-- SCHED_MANY_WAKE_UP, 4-->

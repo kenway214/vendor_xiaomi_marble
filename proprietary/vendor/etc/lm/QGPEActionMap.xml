@@ -36,17 +36,17 @@
         <Opcode Resource="0x40800200" Name="MIN_FREQ_CLUSTER_PRIME_CORE_0" Supported="Yes">
             <Level Val="1000"  Pos="0"/>
             <Level Val="1651" Pos="1"/>
-            <Level Val="806" Pos="2"/>
+            <Level Val="2246" Pos="2"/>
         </Opcode>
         <Opcode Resource="0x40800000" Name="MIN_FREQ_CLUSTER_BIG_CORE_0" Supported="Yes">
             <Level Val="1000"  Pos="0"/>
             <Level Val="1651" Pos="1"/>
-            <Level Val="768" Pos="2"/>
+            <Level Val="2246" Pos="2"/>
         </Opcode>
         <Opcode Resource="0x40800100" Name="MIN_FREQ_CLUSTER_LITTLE_CORE_0" Supported="Yes">
             <Level Val="1000"  Pos="0"/>
             <Level Val="1324" Pos="1"/>
-            <Level Val="614" Pos="2"/>
+            <Level Val="1804" Pos="2"/>
         </Opcode>
     </Group>
     <Group ActionCat="Sched">
@@ -93,9 +93,7 @@
             <Level Val="900000" Pos="0"/>
         </Opcode>
         <Opcode Resource="0x43488000" Name="DDR_LAT_MIN_FREQ_GOLD" Supported="Yes">
-            <Level Val="1017000" Pos="0"/>
-            <Level Val="1555000" Pos="1"/>
-            <Level Val="2092000" Pos="2"/>
+            <Level Val="2092000" Pos="0"/>
         </Opcode>
     </Group>
     <Group ActionCat="Gpu">
