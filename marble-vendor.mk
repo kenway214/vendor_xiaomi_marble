@@ -3066,6 +3066,29 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/marble/proprietary/vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so \
     vendor/xiaomi/marble/proprietary/vendor/lib64/vendor.xiaomi.sensor.communicate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.communicate@1.0.so
 
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/marble/proprietary/vendor/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service \
+    vendor/xiaomi/marble/proprietary/vendor/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/multimedia_dolby_dax_default.xml \
+    vendor/xiaomi/marble/proprietary/vendor/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc \
+    vendor/xiaomi/marble/proprietary/vendor/lib/libdapparamstorage_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/libdeccfg_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/libdlbdsservice_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdlbdsservice_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/soundfx/libhwdap_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhwdap_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/soundfx/libswdap_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/libdapparamstorage_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/libdeccfg_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/libdlbdsservice_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/soundfx/libhwdap_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhwdap_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/soundfx/libswdap_v3_6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap_v3_6.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so \
+    vendor/xiaomi/marble/proprietary/vendor/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so \
+
 PRODUCT_PACKAGES += \
     libagm \
     libar-pal \
@@ -3140,4 +3163,5 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.displayfeature@1.0-service \
     vendor.xiaomi.hardware.quickcamera@1.0-service \
     vendor.xiaomi.sensor.citsensorservice@2.0-service \
-    vendor.xiaomi.sensor.communicate@1.0_manifest
+    vendor.xiaomi.sensor.communicate@1.0_manifest \
+    manifest_dax_dolby_v3_6
